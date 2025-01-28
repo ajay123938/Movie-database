@@ -1,0 +1,140 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    width:100vw;
+    background-color: rgba(192, 31, 139, 0.405);
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border:1px solid rgb(232, 227, 220);
+    border-radius: 10px;
+    height:90%;
+    width:80%;
+    background-color: rgb(186, 232, 217);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+   
+    box-shadow: (0,0,0.2);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header{
+    margin-top: 2px;
+    height:8%;
+    border:1px solid wheat;
+    border-radius: 10px;
+    background-color: beige;
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    width:100%;
+    border-bottom: 1px solid gray;
+
+}
+
+.middle{
+   
+    height:25%;
+    margin-top: 5px;
+    width:100%;
+    display:grid;
+    grid-template-columns:20% 20% 20% 20% 20% ;
+    gap:0px;
+}
+
+.main{
+   
+    height:64%;
+    width:100%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.filter{
+    height:100%;
+    border:1px solid white;
+    border-radius:10px;
+    width:25%;
+    background-color: rgb(215, 232, 226);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.displaymovie{
+    height:100%;
+   
+    width:74%;
+    margin-left: 5px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+   
+    padding:10px;
+    overflow: hidden;
+    overflow-y: scroll
+    
+}
+
+.sty{
+    border-radius: 10px;
+    margin-top:5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.play{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.increase{
+height:80px;
+}
+
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.filterhead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filterdate{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.filterdate input{
+    border:1px solid gray;
+    border-radius:10px;
+}
+
+.filterdate button{
+    height:40px;
+}
+
+.filterdate p{
+    margin-bottom: 0px;
+}
+.genere p{
+    margin-left: 130px;
+}
+.genere button{
+    margin:5px 5px 5px 5px
+}
